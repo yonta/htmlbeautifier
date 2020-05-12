@@ -1,8 +1,8 @@
 ;;; htmlbeautifier.el --- Reformat ERB using htmlbeautifiler  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2020  CC
+;; Copyright (C) 2020 SAITOU Keita
 
-;; Author: CC <kei@CC>
+;; Author: SAITOU Keita <keita44.f4@gmail.com>
 ;; Keywords: languages, convenience, tools
 ;; Package-Requires: ((emacs "24.3") (reformatter "0.5") (dash "2.17.0"))
 ;; Version: 0.1

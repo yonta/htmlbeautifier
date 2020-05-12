@@ -22,16 +22,12 @@ Emacs minor mode to use htmlbeautifier for Ruby on Rails.
 - With leaf.el, like this.
 
 ``` elisp
-(leaf htmlbeautifier :require t
+(leaf htmlbeautifier
   :el-get (htmlbeautifier
            :url "https://github.com/yonta/htmlbeautifier.el.git")
   :hook (web-mode-hook . htmlbeautifier-format-on-save-mode)
   :custom (htmlbeautifier-keep-blank-lines . 1))
 ```
-
-## TODO
-
-- Add autoload.el to remove `require`.
 
 ## Customization
 

@@ -59,9 +59,9 @@ If set integer, use number of spaces."
           (number-to-string htmlbeautifier-keep-blank-lines)))
   :group 'htmlbeautifier)
 
-;;;###autoload (autoload 'htmlbeautifier-format-buffer "current-file" nil t)
-;;;###autoload (autoload 'htmlbeautifier-format-region "current-file" nil t)
-;;;###autoload (autoload 'htmlbeautifier-format-on-save-mode "current-file" nil t)
+;;;###autoload (autoload 'htmlbeautifier-format-buffer "htmlbeautifier" nil t)
+;;;###autoload (autoload 'htmlbeautifier-format-region "htmlbeautifier" nil t)
+;;;###autoload (autoload 'htmlbeautifier-format-on-save-mode "htmlbeautifier" nil t)
 
 (provide 'htmlbeautifier)
 ;;; htmlbeautifier.el ends here

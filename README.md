@@ -24,7 +24,7 @@ Emacs minor mode to use htmlbeautifier for Ruby on Rails.
 ``` elisp
 (leaf htmlbeautifier
   :el-get (htmlbeautifier
-           :url "https://github.com/yonta/htmlbeautifier.git")
+           :url "https://github.com/yonta/htmlbeautifier.el.git")
   :hook (web-mode-hook . htmlbeautifier-format-on-save-mode)
   :custom (htmlbeautifier-keep-blank-lines . 1))
 ```

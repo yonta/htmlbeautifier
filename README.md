@@ -6,7 +6,7 @@ Emacs minor mode to use htmlbeautifier for Ruby on Rails.
 
 - htmlbeautifier (Ruby Gem) >= 1.3.1
 - Emacs >= 24.3
-- reformatter >= "0.5"
+- [reformatter](https://github.com/purcell/reformatter.el) >= "0.5"
 - dash >= "2.17.0"
 
 ## Installation

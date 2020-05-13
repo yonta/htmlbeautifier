@@ -19,6 +19,12 @@
 (require 'reformatter)
 (require 'dash)
 
+(defcustom htmlbeautifier-command "htmlbeautifier"
+  "Set htmlbeautifier command."
+  :type 'string
+  :group 'htmlbeautifier
+  :safe 'stringp)
+
 (defcustom htmlbeautifier-indent-type 2
   "Select space or tab for indent.
 
@@ -48,7 +54,7 @@ If set integer, use number of spaces."
   :safe 'integerp)
 
 (reformatter-define htmlbeautifier-format
-  :program "htmlbeautifier"
+  :program htmlbeautifier-command
   :args (-flatten
          (list
           (if htmlbeautifier-indent-type
